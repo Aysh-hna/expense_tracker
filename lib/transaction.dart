@@ -13,8 +13,8 @@ class Transaction extends StatelessWidget {
     this.title,
     this.delete,
     this.date, {
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

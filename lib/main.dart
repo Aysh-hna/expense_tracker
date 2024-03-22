@@ -96,7 +96,7 @@ class MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Expense Tracker'),
+        title: const Text('ExpTracker'),
       ),
       body: SingleChildScrollView(
         // Wrap with SingleChildScrollView
